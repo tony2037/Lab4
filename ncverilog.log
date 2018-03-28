@@ -1,28 +1,56 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 20:23:56 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 20:39:27 CST
 ncverilog
-	./Dec_BCDto7S.v
-Recompiling... reason: file './Dec_BCDto7S.v' is newer than expected.
-	expected: Wed Mar 28 20:21:57 2018
-	actual:   Wed Mar 28 20:23:52 2018
-file: ./Dec_BCDto7S.v
-	module worklib.dec2to4:v
+	Dec_BCDto7S_tb.v
+	+define+FSDB
+	+access+r
+file: Dec_BCDto7S_tb.v
+	module worklib.Dec_BCDto7S_tb:v
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.Dec_BCDto7S_tb:v <0x41cfb785>
+			streams:   8, words: 18854
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                  Instances  Unique
-		Modules:                  1       1
+		Modules:                  2       2
 		Primitives:              30       3
+		Registers:                4       4
+		Scalar wires:             4       -
+		Initial blocks:           3       3
+		Pseudo assignments:       4       4
 		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.dec2to4:v
-Loading snapshot worklib.dec2to4:v .................... Done
+	Writing initial simulation snapshot: worklib.Dec_BCDto7S_tb:v
+Loading snapshot worklib.Dec_BCDto7S_tb:v .................... Done
 *Verdi* Loading libsscore_ius152.so
 ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
 ncsim> run
-ncsim: *W,RNQUIE: Simulation is complete.
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'Dec_BCDto7S.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0 A=0, B=0, C=0, D=0, a=1, b=1, c=1, d=1, e=1, f=1, g=0 
+                  10 A=0, B=0, C=0, D=1, a=0, b=1, c=1, d=0, e=0, f=0, g=0 
+                  20 A=0, B=0, C=1, D=0, a=1, b=1, c=0, d=1, e=0, f=0, g=1 
+                  30 A=0, B=0, C=1, D=1, a=1, b=1, c=1, d=1, e=0, f=0, g=1 
+                  40 A=0, B=1, C=0, D=0, a=0, b=1, c=1, d=0, e=0, f=1, g=1 
+                  50 A=0, B=1, C=0, D=1, a=1, b=0, c=1, d=1, e=0, f=1, g=1 
+                  60 A=0, B=1, C=1, D=0, a=1, b=0, c=1, d=1, e=0, f=0, g=1 
+                  70 A=0, B=1, C=1, D=1, a=1, b=1, c=1, d=0, e=0, f=0, g=0 
+                  80 A=1, B=0, C=0, D=0, a=1, b=1, c=1, d=1, e=1, f=1, g=1 
+                  90 A=1, B=0, C=0, D=1, a=1, b=1, c=1, d=1, e=0, f=1, g=1 
+                 100 A=1, B=0, C=1, D=0, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+                 110 A=1, B=0, C=1, D=1, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+                 120 A=1, B=1, C=0, D=0, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+                 130 A=1, B=1, C=0, D=1, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+                 140 A=1, B=1, C=1, D=0, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+                 150 A=1, B=1, C=1, D=1, a=0, b=1, c=1, d=1, e=1, f=1, g=0 
+Simulation complete via $finish(1) at time 310 NS + 0
+./Dec_BCDto7S_tb.v:34 		#160 $finish ; 
 ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 20:23:56 CST  (total: 00:00:00)
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 20:39:27 CST  (total: 00:00:00)

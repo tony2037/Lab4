@@ -5,7 +5,9 @@
 -XLMODE
 ./INCA_libs/irun.lnx8664.15.20.nc
 -RUNMODE
-./Dec_BCDto7S.v
+Dec_BCDto7S_tb.v
+-DEFINE
+FSDB
 -CDSLIB
 ./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
 -HDLVAR

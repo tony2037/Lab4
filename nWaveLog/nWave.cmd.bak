@@ -1,7 +1,4 @@
 wvSetPosition -win $_nWave1 {("G1" 0)}
-wvOpenFile -win $_nWave1 {/home/user2/vlsi18/vlsi1812/lab2/test.fsdb}
-wvGetSignalOpen -win $_nWave1
-wvGetSignalSetScope -win $_nWave1 "/test_tb"
 wvOpenFile -win $_nWave1 {/home/user2/vlsi18/vlsi1812/Lab4/grayscale.fsdb}
 wvGetSignalOpen -win $_nWave1
 wvGetSignalSetScope -win $_nWave1 "/grayscale_tb"
@@ -33,9 +30,4 @@ wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 4 )}
 wvSetPosition -win $_nWave1 {("G1" 4)}
 wvGetSignalClose -win $_nWave1
 wvZoomAll -win $_nWave1
-wvSetCursor -win $_nWave1 3134.271255 -snap {("G1" 1)}
-wvSetCursor -win $_nWave1 3198.235975 -snap {("G1" 3)}
-wvZoom -win $_nWave1 3454.094853 3914.640833
-wvZoomAll -win $_nWave1
-wvSetCursor -win $_nWave1 4835.732794 -snap {("G1" 1)}
 wvExit

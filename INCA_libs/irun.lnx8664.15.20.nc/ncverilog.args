@@ -2,4 +2,6 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-./Dec_BCDto7S.v
+Dec_BCDto7S_tb.v
++define+FSDB
++access+r

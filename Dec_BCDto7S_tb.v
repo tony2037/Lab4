@@ -1,0 +1,49 @@
+`timescale 1ns/10ps
+`include "Dec_BCDto7S.v"
+
+module Dec_BCDto7S_tb ;
+
+	reg A, B, C, D ;                // input
+	wire a, b, c, d, e, f, g ;       // outputs
+  
+  // Instantiate module
+	Dec_BCDto7S D0 (.a(a), .b(b), .c(c), .d(d), .e(e), .f(f), .g(g), .A(A), .B(B), .C(C), .D(D) ) ;       
+
+  // Monitoring Input & Output port 
+	initial $monitor( $time, " A=%d, B=%d, C=%d, D=%d, a=%d, b=%d, c=%d, d=%d, e=%d, f=%d, g=%d ", A, B, C, D, a, b, c, d, e, f, g) ;
+                                                                                                                                 
+	// Declare Input patterns
+	initial begin
+		    A=0 ; B=0 ; C=0 ; D = 0 ;                        
+		#10 A=0 ; B=0 ; C=0 ; D = 1 ;
+		#10 A=0 ; B=0 ; C=1 ; D = 0 ;
+		#10 A=0 ; B=0 ; C=1 ; D = 1 ;
+        	#10 A=0 ; B=1 ; C=0 ; D = 0 ;
+		#10 A=0 ; B=1 ; C=0 ; D = 1 ;
+		#10 A=0 ; B=1 ; C=1 ; D = 0 ;
+		#10 A=0 ; B=1 ; C=1 ; D = 1 ;
+		#10 A=1 ; B=0 ; C=0 ; D = 0 ;
+		#10 A=1 ; B=0 ; C=0 ; D = 1 ;
+		#10 A=1 ; B=0 ; C=1 ; D = 0 ;
+		#10 A=1 ; B=0 ; C=1 ; D = 1 ;
+		#10 A=1 ; B=1 ; C=0 ; D = 0 ;
+		#10 A=1 ; B=1 ; C=0 ; D = 1 ;
+		#10 A=1 ; B=1 ; C=1 ; D = 0 ;
+		#10 A=1 ; B=1 ; C=1 ; D = 1 ;        
+        
+		#160 $finish ; 
+	end
+  
+  // Generate the waveform file
+
+	initial begin
+	`ifdef FSDB
+	$fsdbDumpfile("Dec_BCDto7S.fsdb");
+	$fsdbDumpvars;
+	`endif
+	`ifdef VCD
+	$dumpfile("Dec_BCDto7S.vcd");
+	$dumpvars;
+	`endif
+    end
+endmodule

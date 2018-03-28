@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-module dec2to4( a, 
+module Dec_BCDto7S( a, 
 		b,
 		c,
 		d,
