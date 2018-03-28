@@ -90,61 +90,15 @@ IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
 TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
 Runtime command line arguments:
 argv[0]=ncverilog
-argv[1]=Dec_BCDto7S_tb.v
-argv[2]=+define+FSDB
-argv[3]=+access+r
-95 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.040 user,  99.39M sys,  0.00M vm
-96 VC callback profile - scalar:0 vector:0
-97 Wed Mar 28 20:39:27 2018
-98 pliAppInit
-99 FSDB_GATE is disabled.
-100 Enable Parallel Dumping.
-101 pliAppMiscSet: New Sim Round
-102 pliEntryInit
-103 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
-104 argv[0]: Dec_BCDto7S.fsdb
-105 FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
-106 (C) 1996 - 2017 by Synopsys, Inc.
-107 sps_call_fsdbDumpfile at 0 : /home/user2/vlsi18/vlsi1812/Lab4/Dec_BCDto7S_tb.v(41)
-108 argv[0]: Dec_BCDto7S.fsdb
-109 *Verdi* : Create FSDB file 'Dec_BCDto7S.fsdb'
-110 sps_call_fsdbDumpvars at 0 : /home/user2/vlsi18/vlsi1812/Lab4/Dec_BCDto7S_tb.v(42)
-111 *Verdi* : Begin traversing the scopes, layer (0).
-112 *Verdi* : End of traversing.
-113 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  186.30M sys,  0.00M vm
-                   incr: 0.010 sys,  0.000 user,  3.87M sys,  0.00M vm
-                   accu: 0.010 sys,  0.000 user,  3.87M sys,  0.00M vm
-              accu incr: 0.010 sys,  0.000 user,  3.87M sys,  0.00M vm
-
-          Count usage: 45 var,  38 idcode,  38 callback
-                 incr: 45 var,  38 idcode,  38 callback
-                 accu: 45 var,  38 idcode,  38 callback
-            accu incr: 45 var,  38 idcode,  38 callback
-114 VC callback profile - scalar:0 vector:0
-115 Wed Mar 28 20:39:27 2018
-116 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  187.36M sys,  0.00M vm
-                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.010 sys,  0.000 user,  4.93M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-
-          Count usage: 45 var,  38 idcode,  38 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 45 var,  38 idcode,  38 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-117 VC callback profile - scalar:38 vector:0
-118 Wed Mar 28 20:39:27 2018
-119 End of simulation at 31000
-120 VC callback profile - scalar:254 vector:0
-121 Wed Mar 28 20:39:27 2018
-122 Begin FSDB profile info:
-123 FSDB Writer : bc1(254) bcn(0) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.003015) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
-FSDB Writer cpu time : MT Compression : 0
-124 End FSDB profile info
-125 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-126                        ProduceTime:0.093440643 ConsumerTime:0.000000000 Buffer:64MB
-127 SimExit
-128 Sim process exit
+argv[1]=./addsub_8bit.v
+93 profile - 100
+          CPU/Mem usage: 0.040 sys,  0.030 user,  97.08M sys,  0.00M vm
+94 VC callback profile - scalar:0 vector:0
+95 Wed Mar 28 21:22:47 2018
+96 pliAppInit
+97 FSDB_GATE is disabled.
+98 Enable Parallel Dumping.
+99 pliAppMiscSet: New Sim Round
+100 pliEntryInit
+101 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+102 Sim process exit
