@@ -12,7 +12,7 @@ module addsub_1bit( S,
 
 	wire y1, y2, B_in, not_B, not_addsub;
 	not(not_B, B);
-	not(not_addsub);
+	not(not_addsub, addsub);
 	
 	and(y1, B, not_addsub);
 	and(y2, not_B, addsub);
