@@ -5,9 +5,11 @@
 -XLMODE
 ./INCA_libs/irun.lnx8664.15.20.nc
 -RUNMODE
-./grayscale_tb.v
+grayscale_tb.v
 -DEFINE
 FSDB
+-DEFINE
+syn
 -CDSLIB
 ./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
 -HDLVAR

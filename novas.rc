@@ -361,8 +361,8 @@ savePropDtl = TRUE
 [QtDialog]
 importDesignForm = 654,289,644,621
 QwUserAskDlg = 791,421,334,144
-openFileDlg = 660,219,632,513
-qWaveSignalDialog = 556,216,840,519
+openFileDlg = 647,184,642,523
+qWaveSignalDialog = 543,181,850,529
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -678,7 +678,7 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 556 216 840 519 175 421 415 99
+getSignalForm = 543 181 850 529 178 431 422 102
 viewPort = 0 28 1920 775 100 65
 signalSpacing = 5
 digitalSignalHeight = 15

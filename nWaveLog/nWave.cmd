@@ -30,3 +30,4 @@ wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 4 )}
 wvSetPosition -win $_nWave1 {("G1" 4)}
 wvGetSignalClose -win $_nWave1
 wvZoomAll -win $_nWave1
+wvExit

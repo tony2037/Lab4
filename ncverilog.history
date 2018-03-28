@@ -11,3 +11,6 @@ s10(28Mar2018:18:29:21):  ncverilog grayscale_tb.v
 s11(28Mar2018:18:30:10):  ncverilog grayscale_tb.v +define+FSDB +access+r 
 s12(28Mar2018:18:49:11):  ncverilog ./grayscale.v 
 s13(28Mar2018:18:49:32):  ncverilog ./grayscale_tb.v +define+FSDB +access+r 
+s14(28Mar2018:19:11:00):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
+s15(28Mar2018:19:14:32):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
+s16(28Mar2018:19:15:15):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 

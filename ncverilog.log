@@ -1,54 +1,14 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 18:49:32 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 19:15:15 CST
 ncverilog
-	./grayscale_tb.v
-	+define+FSDB
+	grayscale_tb.v
+	+define+FSDB+syn
 	+access+r
-file: ./grayscale_tb.v
-wire [7:0]gray;
-             |
-ncvlog: *W,ILLPDX (grayscale.v,30|13): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'gray') [12.3.4(IEEE-2001)].
-(`include file: grayscale.v line 33, file: ./grayscale_tb.v line 14)
-	module worklib.grayscale:v
-		errors: 0, warnings: 1
-		Caching library 'worklib' ....... Done
-	Elaborating the design hierarchy:
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.grayscale:v <0x12eedffa>
-			streams:   5, words:  1026
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		                  Instances  Unique
-		Modules:                  2       2
-		Registers:                4       4
-		Vectored wires:           8       -
-		Initial blocks:           4       4
-		Cont. assignments:        5       7
-		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.grayscale_tb:v
-Loading snapshot worklib.grayscale_tb:v .................... Done
-*Verdi* Loading libsscore_ius152.so
-ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
-ncsim> run
-FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
-(C) 1996 - 2017 by Synopsys, Inc.
-*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
-*Verdi* : Create FSDB file 'grayscale.fsdb'
-*Verdi* : Begin traversing the scopes, layer (0).
-*Verdi* : End of traversing.
-Result No.1 is correct.
-Result No.2 is not correct. The result is 253, but 255 is expected.
-Result No.3 is correct.
-Result No.4 is not correct. The result is   0, but   1 is expected.
-Result No.5 is not correct. The result is   1, but   3 is expected.
-Result No.6 is not correct. The result is 168, but 156 is expected.
-Result No.7 is not correct. The result is 169, but 161 is expected.
-Result No.8 is not correct. The result is 102, but 119 is expected.
-Result No.9 is not correct. The result is 113, but  93 is expected.
-Result No.10 is not correct. The result is  39, but  36 is expected.
-Simulation complete via $finish(1) at time 219 NS + 0
-./grayscale_tb.v:77     $finish;
-ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 18:49:32 CST  (total: 00:00:00)
+file: grayscale_tb.v
+  `include "tsmc13_neg.v"
+                        |
+ncvlog: *E,COFILX (grayscale_tb.v,12|24): cannot open include file 'tsmc13_neg.v'.
+	Total errors/warnings found outside modules and primitives:
+		errors: 1, warnings: 0
+ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 19:15:15 CST  (total: 00:00:00)
