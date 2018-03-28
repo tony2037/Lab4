@@ -1,13 +1,14 @@
 `timescale 1ns/10ps
-module addsub_8bit( S, 
-                    cout,
-		    ov_flag, 
-                    A, 
-                    B, 
-                    addsub   ) ;
+`include "addsub_1bit.v"
+module addsub_8bit( output [7:0] S, 
+                    output cout,
+		    output ov_flag, 
+                    input [7:0] A, 
+                    input [7:0] B, 
+                    input addsub   ) ;
 
-	output S, cout, ov_flag ;
-	input A, B, addsub ;
+	//output S, cout, ov_flag ;
+	//input A, B, addsub ;
 /*
 	wire y1, y2, y3 ;
 
@@ -16,6 +17,9 @@ module addsub_8bit( S,
 	xor	( y1, A, B ) ;
 	and ( y2, y1, cin ) ;
 	and ( y3, A, B ) ;*/
+	
+	wire cout0;
+	addsub_1bit addsub0(.S(S[0]), .cout(cout0), .A(A[0]), .B(B[0]), .cin(0), .addsub(addsub));
 
 //Note : primary gates doesn't need instance name when called
 

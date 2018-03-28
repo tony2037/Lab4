@@ -2,4 +2,4 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-./addsub_1bit.v
+./addsub_8bit_tb.v
