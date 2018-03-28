@@ -1,9 +1,9 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 21:22:46 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 21:56:05 CST
 ncverilog
-	./addsub_8bit.v
-file: ./addsub_8bit.v
-	module worklib.one_bit_fulladder:v
+	./addsub_1bit.v
+file: ./addsub_1bit.v
+	module worklib.addsub_1bit:v
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
@@ -14,11 +14,11 @@ file: ./addsub_8bit.v
 		                  Instances  Unique
 		Modules:                  1       1
 		Simulation timescale:  10ps
-	Writing initial simulation snapshot: worklib.one_bit_fulladder:v
-Loading snapshot worklib.one_bit_fulladder:v .................... Done
+	Writing initial simulation snapshot: worklib.addsub_1bit:v
+Loading snapshot worklib.addsub_1bit:v .................... Done
 *Verdi* Loading libsscore_ius152.so
 ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
 ncsim> run
 ncsim: *W,RNQUIE: Simulation is complete.
 ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 21:22:47 CST  (total: 00:00:01)
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 21:56:05 CST  (total: 00:00:00)

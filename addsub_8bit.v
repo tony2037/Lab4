@@ -1,10 +1,10 @@
 `timescale 1ns/10ps
-module one_bit_fulladder( S, 
-                          cout,
-			  ov_flag, 
-                          A, 
-                          B, 
-                          addsub   ) ;
+module addsub_8bit( S, 
+                    cout,
+		    ov_flag, 
+                    A, 
+                    B, 
+                    addsub   ) ;
 
 	output S, cout, ov_flag ;
 	input A, B, addsub ;

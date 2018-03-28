@@ -32,3 +32,8 @@ s31(28Mar2018:20:38:02):  ncverilog ./Dec_BCDto7S.v
 s32(28Mar2018:20:38:13):  ncverilog Dec_BCDto7S_tb.v +define+FSDB +access+r 
 s33(28Mar2018:20:39:27):  ncverilog Dec_BCDto7S_tb.v +define+FSDB +access+r 
 s34(28Mar2018:21:22:46):  ncverilog ./addsub_8bit.v 
+s35(28Mar2018:21:51:46):  ncverilog ./addsub_8bit_tb.v 
+s36(28Mar2018:21:52:00):  ncverilog ./addsub_8bit_tb.v 
+s37(28Mar2018:21:52:30):  ncverilog ./addsub_8bit.v 
+s38(28Mar2018:21:55:45):  ncverilog ./addsub_1bit.v 
+s39(28Mar2018:21:56:05):  ncverilog ./addsub_1bit.v 
