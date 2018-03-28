@@ -1,78 +1,49 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 22:23:01 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 22:40:47 CST
 ncverilog
 	./addsub_8bit_tb.v
+Recompiling... reason: file './addsub_8bit_tb.v' is newer than expected.
+	expected: Wed Mar 28 22:36:05 2018
+	actual:   Wed Mar 28 22:40:40 2018
 file: ./addsub_8bit_tb.v
-	module worklib.one_bit_fulladder:v
-		errors: 0, warnings: 0
-	module worklib.addsub_1bit:v
-		errors: 0, warnings: 0
-	module worklib.addsub_8bit:v
-		errors: 0, warnings: 0
-  addsub_8bit as_8( .S(S), .cout(cout), .ov_flag(ov_flag), .A(A), .B(B), .addsub(addsub) ) ;    
-                       |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,10|23): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-  addsub_8bit as_8( .S(S), .cout(cout), .ov_flag(ov_flag), .A(A), .B(B), .addsub(addsub) ) ;    
-                                                              |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,10|62): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-  addsub_8bit as_8( .S(S), .cout(cout), .ov_flag(ov_flag), .A(A), .B(B), .addsub(addsub) ) ;    
-                                                                     |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,10|69): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-        A = 8'b00000010; B = 8'b00000001; addsub = 0 ;        
-        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,16|8): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-        A = 8'b00000010; B = 8'b00000001; addsub = 0 ;        
-                         |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,16|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00000111 ; B = 8'b11111010; addsub = 0 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,17|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00000111 ; B = 8'b11111010; addsub = 0 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,17|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00001000 ; B = 8'b01111111; addsub = 0 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,18|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00001000 ; B = 8'b01111111; addsub = 0 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,18|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00011001 ; B = 8'b00001101; addsub = 0 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,19|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00011001 ; B = 8'b00001101; addsub = 0 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,19|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00011100 ; B = 8'b10000011; addsub = 1 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,20|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b00011100 ; B = 8'b10000011; addsub = 1 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,20|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b11001111 ; B = 8'b00110101; addsub = 1 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,21|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b11001111 ; B = 8'b00110101; addsub = 1 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,21|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b10001100 ; B = 8'b00011000; addsub = 1 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,22|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b10001100 ; B = 8'b00011000; addsub = 1 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,22|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b10000001 ; B = 8'b10000001; addsub = 0 ;
-	      |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,23|7): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-	  #10 A = 8'b10000001 ; B = 8'b10000001; addsub = 0 ;
-	                        |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,23|25): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-      #10 A = 8'b10000000 ; B = 8'b10000000; addsub = 0 ;
-          |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,24|10): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
-      #10 A = 8'b10000000 ; B = 8'b10000000; addsub = 0 ;
-                            |
-ncvlog: *E,MEMNDI (./addsub_8bit_tb.v,24|28): Memory or an array reference requires an index [3.8][4.2.2(IEEE)].
 	module worklib.addsub_8bit_tb:v
-		errors: 21, warnings: 0
-ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 22:23:01 CST  (total: 00:00:00)
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	addsub_1bit addsub0(.S(S[0]), .cout(cout0), .A(A[0]), .B(B[0]), .cin(0), .addsub(addsub));
+	                                                                     |
+ncelab: *W,CUVMPW (./addsub_8bit.v,22|70): port sizes differ in port connection (32/1).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.addsub_8bit_tb:v <0x42c39478>
+			streams:   6, words:  9988
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 18       4
+		Primitives:              80       4
+		Registers:                3       3
+		Scalar wires:             3       -
+		Expanded wires:          16       2
+		Initial blocks:           3       3
+		Pseudo assignments:       4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.addsub_8bit_tb:v
+Loading snapshot worklib.addsub_8bit_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+                   0 A=  2, B=  1, addsub=0, S=  3 , cout=0, ov_flag=z
+                  10 A=  7, B=251, addsub=0, S=  2 , cout=1, ov_flag=z
+                  20 A=  8, B=124, addsub=0, S=132 , cout=0, ov_flag=z
+                  30 A= 25, B= 13, addsub=1, S= 11 , cout=1, ov_flag=z
+                  40 A= 28, B=131, addsub=1, S=152 , cout=0, ov_flag=z
+                  50 A=207, B= 53, addsub=1, S=153 , cout=1, ov_flag=z
+                  60 A=140, B= 24, addsub=1, S=115 , cout=1, ov_flag=z
+                  70 A=129, B=129, addsub=0, S=  2 , cout=1, ov_flag=z
+                  80 A=128, B=128, addsub=0, S=  0 , cout=1, ov_flag=z
+Simulation complete via $finish(1) at time 170 NS + 0
+./addsub_8bit_tb.v:29       #90 $finish ; 
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 22:40:47 CST  (total: 00:00:00)
