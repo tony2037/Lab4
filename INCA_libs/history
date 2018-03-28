@@ -1,0 +1,17 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(28Mar2018:17:50:22):( ncverilog ./grayscale.v )
+s2::(28Mar2018:18:01:14):( ncverilog ./grayscale.v )
+s3::(28Mar2018:18:11:48):( ncverilog ./grayscale.v )
+s4::(28Mar2018:18:23:45):( ncverilog ./grayscale.v )
+s5::(28Mar2018:18:24:33):( ncverilog ./grayscale.v )
+s6::(28Mar2018:18:25:10):( ncverilog ./grayscale.v )
+s7::(28Mar2018:18:25:52):( ncverilog ./grayscale.v )
+s8::(28Mar2018:18:26:44):( ncverilog ./grayscale.v )
+s9::(28Mar2018:18:27:14):( ncverilog ./grayscale.v )
+s10::(28Mar2018:18:29:21):( ncverilog grayscale_tb.v )
+s11::(28Mar2018:18:30:10):( ncverilog grayscale_tb.v +define+FSDB +access+r )
+s12::(28Mar2018:18:49:11):( ncverilog ./grayscale.v )
+s13::(28Mar2018:18:49:32):( ncverilog ./grayscale_tb.v +define+FSDB +access+r )

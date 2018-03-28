@@ -1,0 +1,151 @@
+ncsim(64) 15.20-s039
+Linux 2.6.32-696.20.1.el6.x86_64 #1 SMP Fri Jan 26 17:51:45 UTC 2018 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+USER=vlsi1812
+LOGNAME=vlsi1812
+HOME=/home/user2/vlsi18/vlsi1812
+PATH=/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/bin:/sbin:/usr/bin:/usr/ucb:/usr/sbin:/usr/local/bin:/etc:/usr/bin/X11/:/usr/openwin/bin/:/opt/RISCV/bin:/usr/cad/syntest/syntest/cur/TurboScan/bin:/usr/cad/syntest/syntest/cur/TurboDFT/bin:/usr/cad/syntest/syntest/cur/TurboCheck-Gate/bin:/usr/cad/syntest/syntest/cur/TurboBSD/bin:/usr/cad/syntest/syntest/cur/TurboBIST-Memory/bin:/usr/cad/mentor/calibre/cur/bin:/usr/cad/cadence/CTOS/cur/tools.lnx86/bin:/usr/cad/cadence/MMSIM/cur/tools/dfII/bin:/usr/cad/cadence/MMSIM/cur/tools/bin:/usr/cad/cadence/IC/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dracula/bin:/usr/cad/cadence/IC/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/celtic/bin:/usr/cad/cadence/EDI/cur/tools/plato/bin:/usr/cad/cadence/EDI/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/fe/bin:/usr/cad/cadence/EDI/cur/tools/cdsdoc/bin:/usr/cad/cadence/EDI/cur/tools/bin:/usr/cad/cadence/EDI/cur//tools/tlfUtil/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/bin/X11:/usr/cad/synopsys/primetime/cur/amd64/syn/bin:/usr/bin/X11:/usr/cad/synopsys/primerail/cur/amd64/syn/bin:/usr/cad/synopsys/laker/cur/bin:/usr/cad/synopsys/customexplorer/cur/bin:/usr/cad/synopsys/hspice/cur/hspice/bin:/usr/cad/synopsys/hspice/cur/hspice/GNU/linux64/gcc/bin:/usr/cad/synopsys/hspice/cur/hspice/linux64:/usr/bin:/usr/ucb/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/synopsys/lc/cur/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin
+MAIL=/home/user2/vlsi18/vlsi1812/Maildir/
+SHELL=/bin/tcsh
+SSH_CLIENT=140.116.49.120 51290 22
+SSH_CONNECTION=140.116.49.120 51290 192.168.100.10 22
+SSH_TTY=/dev/pts/19
+TERM=xterm
+DISPLAY=localhost:28.0
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+SHLVL=1
+PWD=/home/user2/vlsi18/vlsi1812/Lab4
+GROUP=student
+HOST=vlsicad9
+REMOTEHOST=140.116.49.120
+HOSTNAME=vlsicad9
+LS_COLORS=no=00:fi=00:di=00;34;01:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+CVS_RSH=ssh
+G_BROKEN_FILENAMES=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+KDEDIRS=/usr
+KDE_IS_PRELINKED=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+LM_LICENSE_FILE=2700@lsncku:1717@lsncku:5280@lsnchu:5280@lsncku:5280@lscic:26585@lsncku:26585@lscic
+SYNOPSYS_LC_ROOT=/usr/cad/synopsys/lc/cur
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+installdir=/usr/cad/synopsys/hspice/cur/hspice
+ARCH=linux64
+CMIARCH=RH_64
+mraarch=linux_64
+TMIARCH=RH_64
+HSP_HOME=/usr/cad/synopsys/hspice/cur/hspice
+SNPS_PLATFORM=linux64
+HSP_GCC=/usr/cad/synopsys/hspice/cur/hspice/GNU/linux64/gcc/bin/gcc -m64 
+SNPS_64=1
+HSP_GCC_VERSION=5.2.0
+LD_LIBRARY_PATH=/usr/local/systemc/cur/lib-linux64:/usr/local/systemc/systemc-2.3.1/lib-linux64::/usr/cad/cadence/CTOS/cur/tools.lnx86/lib:/usr/cad/cadence/MMSIM/cur/tools/lib:/usr/cad/cadence/IC/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/lib/64bit:/usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib:/usr/cad/cadence/EDI/cur//tools/tlfUtil/lib:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/:/usr/cad/synopsys/hspice/cur/hspice/linux64/interfaces
+CDS_LOAD_ENV=CSF
+Laker_TCL_L3=1
+Laker_TCL_ToolBox=1
+PRIMERAIL=/usr/cad/synopsys/primerail/cur
+PRIMETIME=/usr/cad/synopsys/primetime/cur
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64
+ENCOUNTER=/usr/cad/cadence/EDI/cur/tools/fe
+CDS_AUTO_64BIT=ALL
+CDS_Netlisting_Mode=Analog
+MGC_HOME=/usr/cad/mentor/calibre/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+SYNTEST_LIB_PATH=/usr/cad/syntest/syntest/cur/TurboBSD/lib
+SYNTEST=/usr/cad/syntest/syntest/cur/TurboScan
+SYNTEST_TMP=.
+_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=./grayscale_tb.v
+argv[2]=+define+FSDB
+argv[3]=+access+r
+95 profile - 100
+          CPU/Mem usage: 0.040 sys,  0.030 user,  97.17M sys,  0.00M vm
+96 VC callback profile - scalar:0 vector:0
+97 Wed Mar 28 18:49:32 2018
+98 pliAppInit
+99 FSDB_GATE is disabled.
+100 Enable Parallel Dumping.
+101 pliAppMiscSet: New Sim Round
+102 pliEntryInit
+103 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+104 argv[0]: grayscale.fsdb
+105 FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+106 (C) 1996 - 2017 by Synopsys, Inc.
+107 sps_call_fsdbDumpfile at 0 : /home/user2/vlsi18/vlsi1812/Lab4/grayscale_tb.v(82)
+108 argv[0]: grayscale.fsdb
+109 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+110 *Verdi* : Create FSDB file 'grayscale.fsdb'
+111 sps_call_fsdbDumpvars at 0 : /home/user2/vlsi18/vlsi1812/Lab4/grayscale_tb.v(83)
+112 *Verdi* : Begin traversing the scopes, layer (0).
+113 *Verdi* : End of traversing.
+114 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.040 user,  184.63M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  4.15M sys,  0.00M vm
+
+          Count usage: 12 var,  11 idcode,  11 callback
+                 incr: 12 var,  11 idcode,  11 callback
+                 accu: 12 var,  11 idcode,  11 callback
+            accu incr: 12 var,  11 idcode,  11 callback
+115 VC callback profile - scalar:0 vector:0
+116 Wed Mar 28 18:49:32 2018
+117 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.040 sys,  0.040 user,  185.68M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  5.20M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 12 var,  11 idcode,  11 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 12 var,  11 idcode,  11 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+118 VC callback profile - scalar:0 vector:11
+119 Wed Mar 28 18:49:32 2018
+120 End of simulation at 21900
+121 VC callback profile - scalar:0 vector:126
+122 Wed Mar 28 18:49:32 2018
+123 Begin FSDB profile info:
+124 FSDB Writer : bc1(0) bcn(126) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.003516) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+125 End FSDB profile info
+126 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+127                        ProduceTime:0.096229964 ConsumerTime:0.000000000 Buffer:64MB
+128 SimExit
+129 Sim process exit
