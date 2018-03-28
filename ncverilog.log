@@ -1,14 +1,28 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 19:15:15 CST
+TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 20:23:56 CST
 ncverilog
-	grayscale_tb.v
-	+define+FSDB+syn
-	+access+r
-file: grayscale_tb.v
-  `include "tsmc13_neg.v"
-                        |
-ncvlog: *E,COFILX (grayscale_tb.v,12|24): cannot open include file 'tsmc13_neg.v'.
-	Total errors/warnings found outside modules and primitives:
-		errors: 1, warnings: 0
-ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 19:15:15 CST  (total: 00:00:00)
+	./Dec_BCDto7S.v
+Recompiling... reason: file './Dec_BCDto7S.v' is newer than expected.
+	expected: Wed Mar 28 20:21:57 2018
+	actual:   Wed Mar 28 20:23:52 2018
+file: ./Dec_BCDto7S.v
+	module worklib.dec2to4:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  1       1
+		Primitives:              30       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.dec2to4:v
+Loading snapshot worklib.dec2to4:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 20:23:56 CST  (total: 00:00:00)

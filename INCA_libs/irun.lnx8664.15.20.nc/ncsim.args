@@ -2,13 +2,11 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-+define+FSDB
-+access+r
 -MESSAGES
 +EMGRLOG
 ncverilog.log
 -XLSTIME
-1522234172
+1522239836
 -XLKEEP
 -XLMODE
 ./INCA_libs/irun.lnx8664.15.20.nc

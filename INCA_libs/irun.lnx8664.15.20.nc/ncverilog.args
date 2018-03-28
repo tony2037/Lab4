@@ -2,6 +2,4 @@
 // File created by:  ncverilog
 // Do not modify this file
 //
-grayscale_tb.v
-+define+FSDB+syn
-+access+r
+./Dec_BCDto7S.v

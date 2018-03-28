@@ -14,3 +14,16 @@ s13(28Mar2018:18:49:32):  ncverilog ./grayscale_tb.v +define+FSDB +access+r
 s14(28Mar2018:19:11:00):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
 s15(28Mar2018:19:14:32):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
 s16(28Mar2018:19:15:15):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
+s17(28Mar2018:19:59:46):  ncverilog ./Dec_BCDto7S.v 
+s18(28Mar2018:20:00:05):  ncverilog ./Dec_BCDto7S.v 
+s19(28Mar2018:20:03:20):  ncverilog ./Dec_BCDto7S.v 
+s20(28Mar2018:20:03:53):  ncverilog ./Dec_BCDto7S.v 
+s21(28Mar2018:20:05:09):  ncverilog ./Dec_BCDto7S.v 
+s22(28Mar2018:20:08:30):  ncverilog ./Dec_BCDto7S.v 
+s23(28Mar2018:20:10:25):  ncverilog ./Dec_BCDto7S.v 
+s24(28Mar2018:20:11:28):  ncverilog ./Dec_BCDto7S.v 
+s25(28Mar2018:20:14:51):  ncverilog ./Dec_BCDto7S.v 
+s26(28Mar2018:20:17:46):  ncverilog ./Dec_BCDto7S.v 
+s27(28Mar2018:20:19:22):  ncverilog ./Dec_BCDto7S.v 
+s28(28Mar2018:20:21:59):  ncverilog ./Dec_BCDto7S.v 
+s29(28Mar2018:20:23:56):  ncverilog ./Dec_BCDto7S.v 
