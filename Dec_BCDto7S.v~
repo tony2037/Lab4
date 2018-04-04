@@ -22,19 +22,12 @@ module dec2to4( a,
 	 not(not_D, D);
 
 	 //a	 
-	 wire term1;
-	 and(term1, not_A, C);
-	 wire term2, term2_1;
-	 and(term2_1, A, not_B);
-	 and(term2, term2_1, not_C);
-	 wire term3, term3_1;
-	 and(term3_1, not_A, B);
-	 and(term3, term3_1, D);
-	 wire term4, term4_1;
-	 and(term4_1, not_B, not_C);
-	 and(term4, term4_1, not_D);
-
-	 or(a, term1, term2, term3, term4);
+	 wire a_term1, a_term2, a_term3, a_term4;
+	 and(a_term1, not_A, C);
+	 and(a_term2, A, not_B, not_C);
+	 and(a_term3, not_A, B, D);
+	 and(a_term4, not_B, not_C, not_D);
+	 or(a, a_term1, a_term2, a_term3, a_term4);
 
 	 //b
 	 wire b_term3,b_term4;

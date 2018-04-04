@@ -9,7 +9,7 @@
 `define INTERVAL 20
 `ifdef syn
   `include "grayscale_syn.v"
-  `include "tsmc13_neg.v"
+  `include "/usr/cad/CBDK/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v"
 `else
   `include "grayscale.v"
 `endif

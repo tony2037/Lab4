@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version N-2017.09-SP2 for linux64 -- Nov 27, 2017
-#@ # Date:   Wed Mar 28 19:00:29 2018
+#@ # Date:   Fri Apr  6 11:41:20 2018
 #@ # Run by: vlsi1812@vlsicad9
 #@ 
 
@@ -42970,22 +42970,20 @@ gui_start
 
 read_file -format verilog {/home/user2/vlsi18/vlsi1812/Lab4/grayscale.v}
 change_selection [get_s grayscale]
+change_selection 
+change_selection [get_s grayscale]
+change_selection 
+change_selection [get_s grayscale]
+change_selection 
+change_selection [get_s grayscale]
 set_max_delay 20 -rise  -to { grayscale }
 set_max_delay 20 -fall  -to { grayscale }
 set_min_delay 0 -rise  -to { grayscale }
 set_min_delay 0 -fall  -to { grayscale }
-set_operating_conditions -min_library fast -min fast  -max_library fast -max fast
+set_operating_conditions -min_library fast -min fast  -max_library slow -max slow
 set_wire_load_model -name tsmc13_wl10 -library slow
 compile -exact_map
 change_selection -remove [get_s grayscale]
 write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.v
-write -hierarchy -format ddc -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.ddc
 write_sdf -version 2.1 -context veriog -load_delay net design.sdf
-uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
-uplevel #0 { report_area }
-uplevel #0 { report_area }
-set_wire_load_model -name tsmc13_wl10 -library slow
-compile -exact_map
-write -hierarchy -format ddc -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.v.ddc
-write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.v
-write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.v
+write -hierarchy -format ddc -output /home/user2/vlsi18/vlsi1812/Lab4/grayscale_syn.ddc

@@ -3,3 +3,5 @@
 // Do not modify this file
 //
 ./addsub_8bit_tb.v
++define+FSDB
++access+r

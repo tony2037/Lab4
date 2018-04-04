@@ -55,3 +55,26 @@ s54(28Mar2018:22:34:42):  ncverilog ./addsub_8bit_tb.v
 s55(28Mar2018:22:35:16):  ncverilog ./addsub_8bit_tb.v 
 s56(28Mar2018:22:36:10):  ncverilog ./addsub_8bit_tb.v 
 s57(28Mar2018:22:40:47):  ncverilog ./addsub_8bit_tb.v 
+s58(30Mar2018:18:26:19):  ncverilog grayscale_tb.v +define+syn 
+s59(30Mar2018:18:29:25):  ncverilog grayscale_tb.v +define+syn 
+s60(06Apr2018:09:24:21):  ncverilog ./grayscale.v 
+s61(06Apr2018:09:24:39):  ncverilog ./grayscale_tb.v 
+s62(06Apr2018:09:29:10):  ncverilog ./grayscale_tb.v 
+s63(06Apr2018:10:00:49):  ncverilog ./grayscale_tb.v 
+s64(06Apr2018:10:08:05):  ncverilog grayscale_tb.v 
+s65(06Apr2018:10:12:52):  ncverilog grayscale_tb.v 
+s66(06Apr2018:10:17:06):  ncverilog grayscale_tb.v 
+s67(06Apr2018:10:18:04):  ncverilog grayscale_tb.v 
+s68(06Apr2018:10:19:35):  ncverilog grayscale_tb.v 
+s69(06Apr2018:10:19:46):  ncverilog grayscale_tb.v 
+s70(06Apr2018:10:24:54):  ncverilog grayscale_tb.v 
+s71(06Apr2018:10:25:45):  ncverilog ./grayscale_tb.v 
+s72(06Apr2018:10:28:16):  ncverilog ./grayscale_tb.v 
+s73(06Apr2018:10:31:25):  ncverilog ./grayscale_tb.v 
+s74(06Apr2018:10:32:13):  ncverilog ./grayscale_tb.v 
+s75(06Apr2018:10:35:52):  ncverilog ./grayscale_tb.v 
+s76(06Apr2018:10:36:24):  ncverilog ./grayscale_tb.v 
+s77(06Apr2018:11:36:12):  ncverilog grayscale_tb.v 
+s78(06Apr2018:11:50:19):  ncverilog grayscale_tb.v +define+FSDB+syn +access+r 
+s79(06Apr2018:11:51:47):  ncverilog grayscale_tb.v +define+FSDB +access+r 
+s80(06Apr2018:11:56:10):  ncverilog ./addsub_8bit_tb.v +define+FSDB +access+r 

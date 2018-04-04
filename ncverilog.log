@@ -1,10 +1,9 @@
 ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s039: Started on Mar 28, 2018 at 22:40:47 CST
+TOOL:	ncverilog	15.20-s039: Started on Apr 06, 2018 at 11:56:10 CST
 ncverilog
 	./addsub_8bit_tb.v
-Recompiling... reason: file './addsub_8bit_tb.v' is newer than expected.
-	expected: Wed Mar 28 22:36:05 2018
-	actual:   Wed Mar 28 22:40:40 2018
+	+define+FSDB
+	+access+r
 file: ./addsub_8bit_tb.v
 	module worklib.addsub_8bit_tb:v
 		errors: 0, warnings: 0
@@ -15,8 +14,10 @@ file: ./addsub_8bit_tb.v
 ncelab: *W,CUVMPW (./addsub_8bit.v,22|70): port sizes differ in port connection (32/1).
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.addsub_8bit_tb:v <0x42c39478>
-			streams:   6, words:  9988
+		worklib.addsub_8bit:v <0x4c8d3b05>
+			streams:   1, words:   146
+		worklib.addsub_8bit_tb:v <0x6d1a754c>
+			streams:   7, words: 11270
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -34,6 +35,11 @@ Loading snapshot worklib.addsub_8bit_tb:v .................... Done
 *Verdi* Loading libsscore_ius152.so
 ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
 ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'addsub_8bit.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
                    0 A=  2, B=  1, addsub=0, S=  3 , cout=0, ov_flag=z
                   10 A=  7, B=251, addsub=0, S=  2 , cout=1, ov_flag=z
                   20 A=  8, B=124, addsub=0, S=132 , cout=0, ov_flag=z
@@ -46,4 +52,4 @@ ncsim> run
 Simulation complete via $finish(1) at time 170 NS + 0
 ./addsub_8bit_tb.v:29       #90 $finish ; 
 ncsim> exit
-TOOL:	ncverilog	15.20-s039: Exiting on Mar 28, 2018 at 22:40:47 CST  (total: 00:00:00)
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 06, 2018 at 11:56:11 CST  (total: 00:00:01)

@@ -84,4 +84,4 @@ define VIEW_MAP ( $VIEW_MAP \
 , .SVMS => SVMS \
 )
 define ELAB_SNAPSHOT
-define SNAPSHOT worklib.addsub_8bit_tb:v
+define SNAPSHOT worklib.grayscale_tb:v
